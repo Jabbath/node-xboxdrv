@@ -1,0 +1,23 @@
+{
+"leftX": {"pos": 0,"type": "axis"},
+"leftY": {"pos": 1,"type": "axis"},
+"rightX": {"pos": 2,"type": "axis"},
+"rightY": {"pos": 3,"type": "axis"},
+"dUp": {"pos": 4,"type": "button"},
+"dDown": {"pos": 5,"type": "button"},
+"dLeft": {"pos": 6,"type": "button"},
+"dRight": {"pos": 7,"type": "button"},
+"back": {"pos": 8,"type": "button"},
+"home": {"pos": 9,"type": "button"},
+"start": {"pos": 10,"type": "button"},
+"leftDown": {"pos": 11,"type": "button"},
+"rightDown": {"pos": 12,"type": "button"},
+"a": {"pos": 13,"type": "button"},
+"b": {"pos": 14,"type": "button"},
+"x": {"pos": 15,"type": "button"},
+"y": {"pos": 16,"type": "button"},
+"leftBumper": {"pos": 17,"type": "button"},
+"rightBumper": {"pos": 18,"type": "button"},
+"leftTrigger": {"pos": 19,"type": "axis"},
+"rightTrigger":{"pos": 20,"type": "axis"}
+}
