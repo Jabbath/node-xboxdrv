@@ -1,7 +1,7 @@
 {
   "name": "node-xboxdrv",
   "version": "0.1.0",
-  "description": "A node module to create bindings for xboxdrv for to provide controller input on linux",
+  "description": "A node module to create bindings for xboxdrv to provide controller input on linux",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
