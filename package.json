@@ -1,0 +1,25 @@
+{
+  "name": "node-xboxdrv",
+  "version": "0.1.0",
+  "description": "A node module to create bindings for xboxdrv for to provide controller input on linux",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jabbath/node-xboxdrv.git"
+  },
+  "keywords": [
+    "xboxdrv",
+    "bindings",
+    "controller",
+    "xbox",
+    "360"
+  ],
+  "author": "Anton Afanassiev <antonaf@outlook.com> (https://github.com/Jabbath)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jabbath/node-xboxdrv/issues"
+  }
+}
