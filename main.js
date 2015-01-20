@@ -3,8 +3,8 @@ var controls = require('./config.json');
 
 //'1bad:fa01'
 
-function xbox(pid,vid){
-	var xboxdrv = spawn('xboxdrv',['--device-by-id', pid + ':' + vid , '--type', 'xbox360']);
+function xbox(pid,vid,options){
+	var xboxdrv = spawn('xboxdrv',['--device-by-id', pid + ':' + vid , '--type', options.type ? options.type : 'xbox360']);
 	var regExp = /[A-za-z0-9]+:\s*([\d-]+)/g;
 	this.previous;
 	this.actions = [];
