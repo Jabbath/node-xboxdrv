@@ -5,6 +5,7 @@ var controls = require('./config.json');
 
 function xbox(pid,vid,options){
 	var args= ['--device-by-id='+pid+':'+vid,"--type="+(options.type?options.type:'xbox360')];
+	if(options.deadzone)args+=["--deadzone="+options.deadzone];
 	var xboxdrv = spawn('xboxdrv',args);
 	var regExp = /[A-za-z0-9]+:\s*([\d-]+)/g;
 	this.previous;
