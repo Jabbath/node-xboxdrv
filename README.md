@@ -23,7 +23,8 @@ Currently this is its structure with all available options:
 
 ```
 {
-"type": "xbox360-wireless" //Currently only Xbox 360 controllers are supported. See http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html
+"type": "xbox360-wireless", //Currently only Xbox 360 controllers are supported. See http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html
+"deadzone": 3000
 }
 ```
 	
