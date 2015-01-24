@@ -4,7 +4,9 @@ var controls = require('./config.json');
 //'1bad:fa01'
 
 function xbox(pid,vid,options){
-	var xboxdrv = spawn('xboxdrv',['--device-by-id', pid + ':' + vid , '--type', options.type ? options.type : 'xbox360']);
+	var args= ['--device-by-id='+pid+':'+vid,"--type="+(options.type?options.type:'xbox360')];
+	if(options.deadzone)args.push("--deadzone="+options.deadzone);
+	var xboxdrv = spawn('xboxdrv',args);
 	var regExp = /[A-za-z0-9]+:\s*([\d-]+)/g;
 	this.previous;
 	this.actions = [];
